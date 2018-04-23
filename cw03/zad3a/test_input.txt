@@ -1,0 +1,8 @@
+date
+ls -lah
+ls -l
+../zad3b/exceed_limits
+cal
+ls -l -h -a
+gcc
+ls

@@ -1,0 +1,6 @@
+whoami
+ls -l
+cal
+ls -l -h -a
+gcc
+ls

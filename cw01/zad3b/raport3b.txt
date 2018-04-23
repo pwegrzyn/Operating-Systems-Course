@@ -1,0 +1,632 @@
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24739 microseconds real time
+13874 microseconds system time
+10625 microseconds user time
+Found block with closest sum to block nr 20: 936. It took:
+250292 microseconds real time
+68 microseconds system time
+247585 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3302 microseconds real time
+0 microseconds system time
+3304 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3189 microseconds real time
+0 microseconds system time
+3194 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+25170 microseconds real time
+25141 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 191. It took:
+209046 microseconds real time
+0 microseconds system time
+209048 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3228 microseconds real time
+0 microseconds system time
+3231 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2015 microseconds real time
+0 microseconds system time
+2017 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+25229 microseconds real time
+21366 microseconds system time
+3603 microseconds user time
+Found block with closest sum to block nr 20: 919. It took:
+207704 microseconds real time
+0 microseconds system time
+206648 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3809 microseconds real time
+0 microseconds system time
+3667 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2063 microseconds real time
+0 microseconds system time
+2065 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24759 microseconds real time
+21430 microseconds system time
+3329 microseconds user time
+Found block with closest sum to block nr 20: 918. It took:
+206900 microseconds real time
+0 microseconds system time
+206902 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3157 microseconds real time
+80 microseconds system time
+3079 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2051 microseconds real time
+0 microseconds system time
+2054 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24338 microseconds real time
+20530 microseconds system time
+3808 microseconds user time
+Found block with closest sum to block nr 20: 425. It took:
+207119 microseconds real time
+0 microseconds system time
+207120 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3222 microseconds real time
+0 microseconds system time
+3225 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2531 microseconds real time
+0 microseconds system time
+2533 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24553 microseconds real time
+17512 microseconds system time
+6744 microseconds user time
+Found block with closest sum to block nr 20: 637. It took:
+208310 microseconds real time
+0 microseconds system time
+207066 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3196 microseconds real time
+0 microseconds system time
+3198 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2012 microseconds real time
+0 microseconds system time
+2015 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20958 microseconds real time
+10243 microseconds system time
+10715 microseconds user time
+Found block with closest sum to block nr 20: 693. It took:
+207711 microseconds real time
+6 microseconds system time
+207707 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6761 microseconds real time
+0 microseconds system time
+6762 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3525 microseconds real time
+50 microseconds system time
+3476 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21285 microseconds real time
+21266 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 393. It took:
+208703 microseconds real time
+0 microseconds system time
+208699 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+7036 microseconds real time
+0 microseconds system time
+7038 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3539 microseconds real time
+0 microseconds system time
+3541 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21616 microseconds real time
+11034 microseconds system time
+10576 microseconds user time
+Found block with closest sum to block nr 20: 724. It took:
+208868 microseconds real time
+16 microseconds system time
+208856 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6766 microseconds real time
+0 microseconds system time
+6742 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3898 microseconds real time
+0 microseconds system time
+3900 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20834 microseconds real time
+12778 microseconds system time
+8056 microseconds user time
+Found block with closest sum to block nr 20: 891. It took:
+213719 microseconds real time
+46 microseconds system time
+213666 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6660 microseconds real time
+0 microseconds system time
+6661 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3512 microseconds real time
+0 microseconds system time
+3513 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21839 microseconds real time
+13222 microseconds system time
+8374 microseconds user time
+Found block with closest sum to block nr 20: 991. It took:
+215808 microseconds real time
+0 microseconds system time
+214725 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6619 microseconds real time
+0 microseconds system time
+6588 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3549 microseconds real time
+0 microseconds system time
+3549 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21381 microseconds real time
+17416 microseconds system time
+3966 microseconds user time
+Found block with closest sum to block nr 20: 505. It took:
+209523 microseconds real time
+0 microseconds system time
+209520 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+7005 microseconds real time
+0 microseconds system time
+7006 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3586 microseconds real time
+0 microseconds system time
+3588 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21058 microseconds real time
+17071 microseconds system time
+3759 microseconds user time
+Found block with closest sum to block nr 20: 697. It took:
+208170 microseconds real time
+0 microseconds system time
+207181 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6774 microseconds real time
+0 microseconds system time
+6730 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3558 microseconds real time
+0 microseconds system time
+3558 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21290 microseconds real time
+14335 microseconds system time
+6766 microseconds user time
+Found block with closest sum to block nr 20: 354. It took:
+211478 microseconds real time
+0 microseconds system time
+210325 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6651 microseconds real time
+61 microseconds system time
+6590 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3954 microseconds real time
+0 microseconds system time
+3824 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20414 microseconds real time
+12498 microseconds system time
+7916 microseconds user time
+Found block with closest sum to block nr 20: 515. It took:
+207051 microseconds real time
+0 microseconds system time
+207054 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+7053 microseconds real time
+73 microseconds system time
+6974 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3738 microseconds real time
+0 microseconds system time
+3739 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21332 microseconds real time
+13086 microseconds system time
+8247 microseconds user time
+Found block with closest sum to block nr 20: 545. It took:
+207180 microseconds real time
+0 microseconds system time
+207183 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6665 microseconds real time
+0 microseconds system time
+6666 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3509 microseconds real time
+22 microseconds system time
+3487 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21155 microseconds real time
+10351 microseconds system time
+10804 microseconds user time
+Found block with closest sum to block nr 20: 673. It took:
+207757 microseconds real time
+10 microseconds system time
+207749 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6947 microseconds real time
+53 microseconds system time
+6895 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3570 microseconds real time
+0 microseconds system time
+3571 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21373 microseconds real time
+17452 microseconds system time
+3922 microseconds user time
+Found block with closest sum to block nr 20: 86. It took:
+208437 microseconds real time
+0 microseconds system time
+208433 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6697 microseconds real time
+0 microseconds system time
+6699 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3569 microseconds real time
+0 microseconds system time
+3570 microseconds user time
+
+*** Krotki kometarz do powyzszych rezultatow:
+    Pierwsze 6 pomiarow dotyczy wariantu z bibliotekami statycznymi, 6 kolejny - bibliotekami dzielonym,
+a 6 ostatcznie odnosi sie do bibliotek ladowanych dynamicznie podczas runtime'u. Plik makefile zarzadzil
+kompilacje kazdego z tych segmentow w podanej kolejnosci:
+    -O (nastepuja proba optymalizcji kodu i czasu wykonania, jednoczesnie nie zwiekszajac
+zbytnio czasu samej kompilacji),
+    -Os (w tym przypadku kompilator optymalizuje rozmiar, uzywa wszystkie flagi -O2, ktore nie
+zwiekszaja kodu programu, ponadto uzywa innych flag, ale tylko takich, ktore nie zwiekszaja
+rozmiaru),
+    -O0 (jest to wartosc domyslna)
+    -O1 (mozliwy jest dluzszy czas kompilacji oraz zuzywa duzo pamieci dla duzych
+funkcji, poniewaz uzywa wiecej opcji optymalizujacych),
+    -O2 (uzywane jeszcze wiecej opcji kompilacji, ktore nie powoduja
+zwiekszenia pamieci programu, w porownaniu do wartosci domyslnej zwieksza wydajnosc kodu
+kosztem dluzszego czasu kompilacji),
+    -O3 (oprocz wszystkich flag -O2, opcja ta uzywa jeszcze wiecej opcji optymalizacji)
+W zdecydowanej wiekszosci przypadku zmierzone wartosci czasu (rzeczywistego) sa dosc zblizone.
+Moze to wynikac z malej zlozonosci programu (kompilator nie mial duzo szans na wykonanie krokow
+optymalizacyjnych). Ponadto w tym przypadku nie mierzono rozmiaru dostarczonych plikow, co nie pozwolilo
+na wyciagniecie jednoznacznych wniosku.Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+23913 microseconds real time
+20141 microseconds system time
+3774 microseconds user time
+Found block with closest sum to block nr 20: 530. It took:
+228611 microseconds real time
+0 microseconds system time
+228629 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3234 microseconds real time
+0 microseconds system time
+3235 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2098 microseconds real time
+0 microseconds system time
+2100 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+28513 microseconds real time
+24632 microseconds system time
+3883 microseconds user time
+Found block with closest sum to block nr 20: 603. It took:
+204128 microseconds real time
+0 microseconds system time
+204139 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3198 microseconds real time
+0 microseconds system time
+3200 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2038 microseconds real time
+23 microseconds system time
+2018 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24179 microseconds real time
+16270 microseconds system time
+7910 microseconds user time
+Found block with closest sum to block nr 20: 899. It took:
+203624 microseconds real time
+0 microseconds system time
+203638 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3195 microseconds real time
+0 microseconds system time
+3198 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2157 microseconds real time
+0 microseconds system time
+2159 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+25394 microseconds real time
+25370 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 655. It took:
+204176 microseconds real time
+0 microseconds system time
+204189 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3129 microseconds real time
+0 microseconds system time
+3131 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2098 microseconds real time
+0 microseconds system time
+2100 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+23857 microseconds real time
+20085 microseconds system time
+3775 microseconds user time
+Found block with closest sum to block nr 20: 337. It took:
+205173 microseconds real time
+69 microseconds system time
+205074 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3239 microseconds real time
+0 microseconds system time
+3240 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2019 microseconds real time
+41 microseconds system time
+1980 microseconds user time
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24882 microseconds real time
+14375 microseconds system time
+10508 microseconds user time
+Found block with closest sum to block nr 20: 838. It took:
+205143 microseconds real time
+58 microseconds system time
+205090 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3127 microseconds real time
+0 microseconds system time
+3130 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+1943 microseconds real time
+35 microseconds system time
+1909 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20964 microseconds real time
+18009 microseconds system time
+2955 microseconds user time
+Found block with closest sum to block nr 20: 589. It took:
+225352 microseconds real time
+39 microseconds system time
+225288 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6673 microseconds real time
+0 microseconds system time
+6675 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3577 microseconds real time
+0 microseconds system time
+3579 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20513 microseconds real time
+12529 microseconds system time
+7984 microseconds user time
+Found block with closest sum to block nr 20: 766. It took:
+211759 microseconds real time
+0 microseconds system time
+211763 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6698 microseconds real time
+0 microseconds system time
+6699 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3586 microseconds real time
+0 microseconds system time
+3587 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21579 microseconds real time
+8803 microseconds system time
+12777 microseconds user time
+Found block with closest sum to block nr 20: 484. It took:
+221622 microseconds real time
+67 microseconds system time
+221536 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6792 microseconds real time
+0 microseconds system time
+6794 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+4213 microseconds real time
+0 microseconds system time
+4215 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21664 microseconds real time
+13275 microseconds system time
+8389 microseconds user time
+Found block with closest sum to block nr 20: 643. It took:
+207852 microseconds real time
+4 microseconds system time
+207856 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6745 microseconds real time
+60 microseconds system time
+6687 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3573 microseconds real time
+0 microseconds system time
+3573 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20668 microseconds real time
+20669 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 556. It took:
+240057 microseconds real time
+0 microseconds system time
+240067 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+10745 microseconds real time
+0 microseconds system time
+10747 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3737 microseconds real time
+0 microseconds system time
+3740 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+21521 microseconds real time
+17546 microseconds system time
+3965 microseconds user time
+Found block with closest sum to block nr 20: 857. It took:
+226872 microseconds real time
+0 microseconds system time
+226864 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6985 microseconds real time
+49 microseconds system time
+6937 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3867 microseconds real time
+0 microseconds system time
+3868 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+24715 microseconds real time
+24716 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 187. It took:
+211504 microseconds real time
+0 microseconds system time
+211509 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6627 microseconds real time
+0 microseconds system time
+6629 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3568 microseconds real time
+0 microseconds system time
+3568 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20698 microseconds real time
+16875 microseconds system time
+3823 microseconds user time
+Found block with closest sum to block nr 20: 768. It took:
+206988 microseconds real time
+0 microseconds system time
+206988 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6678 microseconds real time
+0 microseconds system time
+6680 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3577 microseconds real time
+0 microseconds system time
+3579 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20505 microseconds real time
+12589 microseconds system time
+7916 microseconds user time
+Found block with closest sum to block nr 20: 634. It took:
+204545 microseconds real time
+7 microseconds system time
+204543 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6797 microseconds real time
+47 microseconds system time
+6753 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3514 microseconds real time
+3515 microseconds system time
+0 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+19832 microseconds real time
+19832 microseconds system time
+0 microseconds user time
+Found block with closest sum to block nr 20: 179. It took:
+203664 microseconds real time
+0 microseconds system time
+203665 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6654 microseconds real time
+0 microseconds system time
+6655 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3625 microseconds real time
+0 microseconds system time
+3627 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20553 microseconds real time
+17056 microseconds system time
+3496 microseconds user time
+Found block with closest sum to block nr 20: 698. It took:
+217724 microseconds real time
+62 microseconds system time
+217666 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6668 microseconds real time
+0 microseconds system time
+6669 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3624 microseconds real time
+0 microseconds system time
+3626 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20638 microseconds real time
+16874 microseconds system time
+3764 microseconds user time
+Found block with closest sum to block nr 20: 92. It took:
+203008 microseconds real time
+0 microseconds system time
+203011 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+6637 microseconds real time
+0 microseconds system time
+6638 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3554 microseconds real time
+0 microseconds system time
+3555 microseconds user time

@@ -1,0 +1,66 @@
+Results from the program with static libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+25573 microseconds real time
+22261 microseconds system time
+3312 microseconds user time
+Found block with closest sum to block nr 20: 897. It took:
+206866 microseconds real time
+83 microseconds system time
+206780 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+3782 microseconds real time
+0 microseconds system time
+3785 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+2622 microseconds real time
+0 microseconds system time
+2624 microseconds user time
+Results from the program with shared libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+22508 microseconds real time
+9165 microseconds system time
+13317 microseconds user time
+Found block with closest sum to block nr 20: 821. It took:
+207994 microseconds real time
+0 microseconds system time
+207990 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+7017 microseconds real time
+0 microseconds system time
+7018 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3710 microseconds real time
+0 microseconds system time
+3711 microseconds user time
+Results from the program with dynamically loaded libraries:
+Dynamically allocating an array of size 1000 with 100000 - sized blocks took:
+20819 microseconds real time
+12914 microseconds system time
+7905 microseconds user time
+Found block with closest sum to block nr 20: 618. It took:
+215137 microseconds real time
+0 microseconds system time
+215138 microseconds user timer
+Clearing and then allocating 800 continuos memory blocks with each of size 100000 took:
+7073 microseconds real time
+54 microseconds system time
+7020 microseconds user time
+Clearing and then allocating 500 non-continuos memory blocks (alternately) with each of size 100000 took:
+3577 microseconds real time
+0 microseconds system time
+3578 microseconds user time
+
+*** Krotki kometarz do powyzszych rezultatow:
+    W przypadku pierwszej funkcjonalnosci, czyli alokacji tablicy o zadanej liczbie elementow o danym
+rozmiarze najmniej naszybszą realizacja (wg. czasu rzeczywistego) uzyskano w przypadku biblioteki
+ladowej dynamicznie przez program podczas runtime, aczkolwiek wszystkie rezultaty nie odbiegały zbytnio od siebie - 
+w kazdym przypadku operacja ta zajela od 20k - 25k mikrosekund. W przypadku wykorzystania biblioteki statycznej
+zdecydowana wiekszosc czasu operacji zostala wykonywana w trybie jadra. W pozostalych dwoch przypadkach
+czas ten byly tylko niec wiekszy niz czas w trybie uzytkownika. Wynika to z faktu wykonywania syscall'u w celu
+alokacji kolejnych blokow pamieci.
+    Druga funkcjonalnosc, czyli znajdywanie bloku o najblizszej sumie we wszystkich wariantach wymagala praktycznie
+takie samej ilosci czasu (ok 200 ms), caly ten czasu cpu pracowal w trybie uzytkownika (nie korzystalismy
+z zadnych wywolan systemowych).
+    W przypadku pozostalych operacji najmniej czasu zajely one w wariancie wykorzystujacym biblioteki statyczne.
+Warte zauwazenia jest to, ze praktycznie caly czas cpu pracowal w trybie uzytkownika (pomimo czestego wywolywania
+funkcji alloc i free). Byc moze wynika to z implementacji funkcji alokujacych pamiec.

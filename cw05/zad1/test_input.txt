@@ -1,0 +1,14 @@
+ls | head -n 3 | tail -n 1
+
+
+ls
+echo Ala ma kota | grep Ala
+
+ls -l | sort | uniq | wc --lines
+
+gcc
+
+cal | grep Th
+
+date
+cal
